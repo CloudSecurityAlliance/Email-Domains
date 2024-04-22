@@ -4,7 +4,7 @@ Types of email domains:
 
 * Temporary/Disposable
 * Email to SMS/MMS gateways
-* Free signup
-* Known good free signup
+* Free signup domains
+* Known good domains
 
 This repo has tools to download and collate the above lists.
