@@ -1,5 +1,10 @@
 #!/bin/bash
 
+rm disposable_email_blocklist.conf
+rm domains.txt
+rm generator-email-hosts.txt
+rm blacklist.txt
+
 wget https://raw.githubusercontent.com/disposable-email-domains/disposable-email-domains/master/disposable_email_blocklist.conf
 wget https://raw.githubusercontent.com/disposable/disposable-email-domains/master/domains.txt
 wget https://raw.githubusercontent.com/disposable/static-disposable-lists/master/generator-email-hosts.txt
